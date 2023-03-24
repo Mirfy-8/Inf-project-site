@@ -1,0 +1,171 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "./media.css";
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(45, 68, 89);
+}
+  
+/* Header */
+
+.header {
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    padding-left: 6%;
+    background-color: rgb(45, 68, 89);
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    color: rgb(217, 208, 197);
+    font-weight: 600;
+}
+
+.logo:hover {
+    color: rgb(217, 208, 197);
+}
+
+.nav-list {
+    display: flex;
+    margin-top: 0.8%;
+    margin-right: 3%;
+    
+}
+
+.nav-list.list a {
+    margin: 10px;
+    color: rgb(217, 208, 197);
+
+}
+
+/* Main content (Sidebar + Main) */
+
+.all-content {
+    display: flex;
+}
+
+
+/* Sidebar */
+
+.aside {
+    width: 18%;
+    background-color: rgb(217, 208, 197);
+    text-align: center;
+    padding-top: 15px;
+    border-right: 5px solid rgb(45, 68, 89);
+
+}
+
+.aside-list {
+    margin-top: 10px;
+    border-top: 5px solid rgb(45, 68, 89);
+    padding-top: 10px;
+}
+
+.aside-list.list a{
+    color:rgb(45, 68, 89);
+}
+
+aside>span>h5 {
+    font-weight: 600;
+
+}
+
+/* Main */
+
+.main {
+    width: 82%;
+    margin-top: 0px;
+    background-color: rgb(242, 234, 223);
+    text-align: center;
+
+}
+
+main>h2 {
+    margin-top: 2%;
+}
+
+
+.main-img {
+    margin-top: 2%;
+    max-height: 80%;
+    width: 60%;
+    margin-bottom: 3%;
+
+}
+
+.main-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.main-text img {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    float: right;
+}
+
+
+
+.main-text p, h4{
+    text-align: justify;
+}
+
+h4 {
+    text-decoration: underline;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.main-text h5 {
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: rgb(45, 68, 89);
+    justify-content: space-evenly;
+    max-height: 6%;
+
+}
+
+.block-1 {
+    margin-left: 15%;
+    padding-top: 1.5%;
+    
+}
+
+.block-2 {
+    padding-top: 0.5%;
+}
+
+
+.icon {
+    width: 75px;
+}
+
+
+
+.icons {
+    display: flex;
+    
+}
+
+

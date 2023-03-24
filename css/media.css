@@ -1,0 +1,155 @@
+@media (max-width: 500px) {
+    
+    * {
+        font-size: 9px;
+    }
+
+    .aside {
+        border-right: 3px solid rgb(45, 68, 89) !important;
+    }
+    
+    .aside-list {
+        border-top: 3px solid rgb(45, 68, 89)  !important;
+    }
+
+    .aside-list.list li{
+        margin-bottom: 15%;
+    }
+    .main {
+        min-height: 2000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .aside-list.list li{
+        margin-top: 15%;
+    }
+}
+
+@media (min-width: 1500px) {
+    
+    * {
+        font-size: 25px;
+    }
+    
+    .nav-list.list a {
+        margin: 10px !important;
+    
+    }
+
+    .icon {
+        min-width: 120px;
+    }
+
+    .aside {
+        border-right: 6px solid rgb(45, 68, 89) !important;
+    
+    }
+    
+    .aside-list {
+        border-top: 6px solid rgb(45, 68, 89)  !important;
+    }
+    
+
+}
+
+@media (min-width: 2000px) {
+    
+    * {
+        font-size: 30px;
+    }
+
+    .nav-list.list a {
+        margin: 15px !important;
+    
+    }
+
+    .icon {
+        min-width: 130px;
+    }
+
+    .aside {
+        border-right: 8px solid rgb(45, 68, 89) !important;
+    
+    }
+    
+    .aside-list {
+        border-top: 8px solid rgb(45, 68, 89) !important;
+
+}
+}
+
+@media (min-width: 2400px) {
+    
+    * {
+        font-size: 35px;
+    }
+    
+    .nav-list.list a {
+        margin: 20px !important;
+    
+    }
+
+    .icon {
+        min-width: 140px;
+    }
+
+    .aside {
+        border-right: 10px solid rgb(45, 68, 89) !important;
+    
+    }
+    
+    .aside-list {
+        border-top: 10px solid rgb(45, 68, 89) !important;
+    }
+}
+
+@media (min-width: 3000px) {
+    
+    * {
+        font-size: 40px;
+    }
+    
+    .nav-list.list a {
+        margin: 25px !important;
+    
+    }
+
+    .icon {
+        min-width: 150px;
+    }
+
+    .aside {
+        border-right: 12px solid rgb(45, 68, 89) !important;
+    
+    }
+    
+    .aside-list {
+        border-top: 12px solid rgb(45, 68, 89) !important;
+    }
+}
+
+@media (min-width: 3400px) {
+    
+    * {
+        font-size: 45px;
+    }
+    
+    .nav-list.list a {
+        margin: 30px !important;
+    
+    }
+
+    .icon {
+        min-width: 160px;
+    }
+
+    .aside {
+        border-right: 13px solid rgb(45, 68, 89) !important;
+    
+    }
+    
+    .aside-list {
+        border-top: 13px solid rgb(45, 68, 89) !important;
+    }
+}
